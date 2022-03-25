@@ -27,7 +27,7 @@ export const mainnetTokens = {
     MAINNET,
     '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     18,
-    'CAKE',
+    'QUICK',
     'PancakeSwap Token',
     'https://pancakeswap.finance/',
   ),
@@ -1660,28 +1660,36 @@ export const mainnetTokens = {
     'Lightning',
     'https://lightningprotocol.finance/',
   ),
+  quick: new Token(
+    MAINNET,
+    '0xa249b2F75DC1802e157A1Cf6345551d7D12762EF',
+    18,
+    'QUICK',
+    'QuickSwap Token',
+    'https://quickswap.finance/',
+  ),
 }
 
 export const testnetTokens = {
   wbnb: new Token(
     TESTNET,
-    '0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F',
+    '0xae13d989dac2f0debff460ac112a837c89baa7cd',
     18,
     'WBNB',
     'Wrapped BNB',
     'https://www.binance.com/',
   ),
-  cake: new Token(
+  quick: new Token(
     TESTNET,
-    '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+    '0xa249b2F75DC1802e157A1Cf6345551d7D12762EF',
     18,
-    'CAKE',
-    'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'QUICK',
+    'QuickSwap Token',
+    'https://quickswap.finance/',
   ),
   busd: new Token(
     TESTNET,
-    '0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee',
+    '0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7',
     18,
     'BUSD',
     'Binance USD',

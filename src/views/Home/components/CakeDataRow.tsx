@@ -55,7 +55,7 @@ const CakeDataRow = () => {
   return (
     <Grid>
       <Flex flexDirection="column">
-        <Text color="textSubtle">{t('Total supply')}</Text>
+        <Text color="textSubtle">{t('Circulation Supply')}</Text>
         {cakeSupply ? (
           <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={cakeSupply} />
         ) : (

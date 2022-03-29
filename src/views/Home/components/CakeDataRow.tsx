@@ -41,7 +41,7 @@ const Grid = styled.div`
   }
 `
 
-const emissionsPerBlock = 15
+const emissionsPerBlock = 20
 
 const CakeDataRow = () => {
   const { t } = useTranslation()

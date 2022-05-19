@@ -1,4 +1,4 @@
-import { Token, Pair, ChainId } from '@pancakeswap/sdk'
+import { Token, Pair, ChainId } from '@quickswap-core/sdk'
 import tokens from './tokens'
 import { FarmAuctionBidderConfig } from './types'
 

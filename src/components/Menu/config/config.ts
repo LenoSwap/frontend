@@ -1,4 +1,4 @@
-import { MenuItemsType, DropdownMenuItemType } from '@pancakeswap/uikit'
+import { MenuItemsType, DropdownMenuItemType } from '@quickswap-core/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import { nftsBaseUrl, pancakeBunniesAddress, pancakeSquadAddress } from 'views/Nft/market/constants'
 

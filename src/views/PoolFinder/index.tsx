@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { Currency, ETHER, JSBI, TokenAmount } from '@quickswap-core/sdk'
-import { Button, ChevronDownIcon, Text, AddIcon, useModal } from '@pancakeswap/uikit'
+import { Button, ChevronDownIcon, Text, AddIcon, useModal } from '@quickswap-core/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import { LightCard } from '../../components/Card'

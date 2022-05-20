@@ -11,7 +11,7 @@ import {
   Text,
   WalletFilledIcon,
   Skeleton,
-} from '@pancakeswap/uikit'
+} from '@quickswap-core/uikit'
 import { Price } from '@quickswap-core/sdk'
 import { useTranslation } from 'contexts/Localization'
 import { multiplyPriceByAmount } from 'utils/prices'

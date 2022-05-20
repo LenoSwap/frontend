@@ -1,6 +1,6 @@
 import React from 'react'
 import { Price } from '@quickswap-core/sdk'
-import { Text, AutoRenewIcon } from '@pancakeswap/uikit'
+import { Text, AutoRenewIcon } from '@quickswap-core/uikit'
 import { StyledBalanceMaxMini } from './styleds'
 
 interface TradePriceProps {

@@ -14,7 +14,7 @@ import {
   CloseIcon,
   ArrowUpIcon,
   ArrowDownIcon,
-} from '@pancakeswap/uikit'
+} from '@quickswap-core/uikit'
 import orderBy from 'lodash/orderBy'
 import { useAppDispatch } from 'state'
 import { filterNftsFromCollection } from 'state/nftMarket/reducer'

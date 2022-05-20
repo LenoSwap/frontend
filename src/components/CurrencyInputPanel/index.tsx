@@ -1,6 +1,6 @@
 import React from 'react'
 import { Currency, Pair } from '@quickswap-core/sdk'
-import { Button, ChevronDownIcon, Text, useModal, Flex } from '@pancakeswap/uikit'
+import { Button, ChevronDownIcon, Text, useModal, Flex } from '@quickswap-core/uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

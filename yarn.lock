@@ -2706,10 +2706,10 @@
     truffle-flattener "^1.4.4"
     truffle-hdwallet-provider "^1.0.17"
 
-"@quickswap-core/sdk@^2.4.0":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@quickswap-core/sdk/-/sdk-2.4.2.tgz#3dc1cdb35475d6af1df7c53f12ff3b43d6ec3fc2"
-  integrity sha512-D/3DGsJY2z/UMrQFezeV1mkyDVeql9rqAMhotlZUe+Czb5HW5WDKq0iphzJrTGv8iwdssAgZwsQqfwALQUVNqQ==
+"@quickswap-core/sdk@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@quickswap-core/sdk/-/sdk-2.4.3.tgz#63244d17aa2ae6fceba22143d3643003bd01f68b"
+  integrity sha512-yMm+SSp2u38VXOt0cy+UWGVO2vRnqlTzsYfSokG96fQGzbEth7bXes872g1TScbgzZKNoHaI7PRo9amgTwzr0g==
   dependencies:
     "@quickswap-core/quickswap-core" "^0.1.3"
     big.js "^5.2.2"

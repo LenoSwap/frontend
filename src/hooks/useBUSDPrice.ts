@@ -1,11 +1,11 @@
 import { ChainId, Currency, currencyEquals, JSBI, Price } from '@quickswap-core/sdk'
 import { useMemo } from 'react'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import tokens, { mainnetTokens } from 'config/constants/tokens'
+import tokens, { testnetTokens } from 'config/constants/tokens'
 import { PairState, usePairs } from './usePairs'
 import { wrappedCurrency } from '../utils/wrappedCurrency'
 
-const BUSD_MAINNET = mainnetTokens.busd
+const BUSD_TESTNET = testnetTokens.busd
 const { wbnb: WBNB } = tokens
 
 /**
@@ -18,8 +18,8 @@ export default function useBUSDPrice(currency?: Currency): Price | undefined {
   const tokenPairs: [Currency | undefined, Currency | undefined][] = useMemo(
     () => [
       [chainId && wrapped && currencyEquals(WBNB, wrapped) ? undefined : currency, chainId ? WBNB : undefined],
-      [wrapped?.equals(BUSD_MAINNET) ? undefined : wrapped, chainId === ChainId.MAINNET ? BUSD_MAINNET : undefined],
-      [chainId ? WBNB : undefined, chainId === ChainId.MAINNET ? BUSD_MAINNET : undefined],
+      [wrapped?.equals(BUSD_TESTNET) ? undefined : wrapped, chainId === ChainId.TESTNET ? BUSD_TESTNET : undefined],
+      [chainId ? WBNB : undefined, chainId === ChainId.TESTNET ? BUSD_TESTNET : undefined],
     ],
     [chainId, currency, wrapped],
   )
@@ -33,13 +33,13 @@ export default function useBUSDPrice(currency?: Currency): Price | undefined {
     if (wrapped.equals(WBNB)) {
       if (busdPair) {
         const price = busdPair.priceOf(WBNB)
-        return new Price(currency, BUSD_MAINNET, price.denominator, price.numerator)
+        return new Price(currency, BUSD_TESTNET, price.denominator, price.numerator)
       }
       return undefined
     }
     // handle busd
-    if (wrapped.equals(BUSD_MAINNET)) {
-      return new Price(BUSD_MAINNET, BUSD_MAINNET, '1', '1')
+    if (wrapped.equals(BUSD_TESTNET)) {
+      return new Price(BUSD_TESTNET, BUSD_TESTNET, '1', '1')
     }
 
     const ethPairETHAmount = ethPair?.reserveOf(WBNB)
@@ -51,17 +51,17 @@ export default function useBUSDPrice(currency?: Currency): Price | undefined {
     if (
       busdPairState === PairState.EXISTS &&
       busdPair &&
-      busdPair.reserveOf(BUSD_MAINNET).greaterThan(ethPairETHBUSDValue)
+      busdPair.reserveOf(BUSD_TESTNET).greaterThan(ethPairETHBUSDValue)
     ) {
       const price = busdPair.priceOf(wrapped)
-      return new Price(currency, BUSD_MAINNET, price.denominator, price.numerator)
+      return new Price(currency, BUSD_TESTNET, price.denominator, price.numerator)
     }
     if (ethPairState === PairState.EXISTS && ethPair && busdEthPairState === PairState.EXISTS && busdEthPair) {
-      if (busdEthPair.reserveOf(BUSD_MAINNET).greaterThan('0') && ethPair.reserveOf(WBNB).greaterThan('0')) {
-        const ethBusdPrice = busdEthPair.priceOf(BUSD_MAINNET)
+      if (busdEthPair.reserveOf(BUSD_TESTNET).greaterThan('0') && ethPair.reserveOf(WBNB).greaterThan('0')) {
+        const ethBusdPrice = busdEthPair.priceOf(BUSD_TESTNET)
         const currencyEthPrice = ethPair.priceOf(WBNB)
         const busdPrice = ethBusdPrice.multiply(currencyEthPrice).invert()
-        return new Price(currency, BUSD_MAINNET, busdPrice.denominator, busdPrice.numerator)
+        return new Price(currency, BUSD_TESTNET, busdPrice.denominator, busdPrice.numerator)
       }
     }
 

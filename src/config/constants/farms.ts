@@ -41,7 +41,7 @@ const farms: SerializedFarmConfig[] = [
     pid: 3,
     lpSymbol: 'QUICK-BUSD LP',
     lpAddresses: {
-      97: '0xf6B8d8719109c38684b391a2F9B6B3C8d6537Af3',
+      97: '0xdaA2ceE0d51DaC7a6Fe1b06DAE267ab418A96219',
       56: '0x341b183E8C8203359c78e61C159315e9052eAf80',
     },
     token: serializedTokens.quick,

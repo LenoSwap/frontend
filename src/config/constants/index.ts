@@ -1,7 +1,7 @@
 import { ChainId, JSBI, Percent, Token } from '@lenoswap/sdk'
 import { mainnetTokens, testnetTokens } from './tokens'
 
-export const ROUTER_ADDRESS = '0x10ED43C718714eb63d5aA57B78B54704E256024E'
+export const ROUTER_ADDRESS = '0x8d5d7839AbB34B4ef3ad6bD981a37488b6BBA439'
 
 // a list of tokens by chain
 type ChainTokenList = {

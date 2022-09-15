@@ -28,8 +28,8 @@ export const mainnetTokens = {
     '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     18,
     'LENO',
-    'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'LenoSwap Token',
+    'https://lenoswap.com/',
   ),
   tlos: new Token(MAINNET, '0xb6C53431608E626AC81a9776ac3e999c5556717c', 18, 'TLOS', 'Telos', 'https://www.telos.net/'),
   beta: new Token(
@@ -1665,7 +1665,7 @@ export const mainnetTokens = {
 export const testnetTokens = {
   wbnb: new Token(
     TESTNET,
-    '0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F',
+    '0x91Ee0B2E8A5Dea14d9372f05C4cE1c0A93229804',
     18,
     'WBNB',
     'Wrapped BNB',
@@ -1673,11 +1673,11 @@ export const testnetTokens = {
   ),
   leno: new Token(
     TESTNET,
-    '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+    '0x22241835329ffac90DDB9C5fCECbbc711fDf777C',
     18,
     'LENO',
-    'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'Lenoswap Token',
+    'https://lenoswap.com/',
   ),
   busd: new Token(
     TESTNET,
@@ -1687,22 +1687,15 @@ export const testnetTokens = {
     'Binance USD',
     'https://www.paxos.com/busd/',
   ),
-  syrup: new Token(
+  usdt: new Token(
     TESTNET,
-    '0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9',
+    '0x337610d27c682E347C9cD60BD4b3b107C9d34dDd',
     18,
-    'SYRUP',
-    'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'USDT',
+    'Tether USD',
+    'https://tether.to/',
   ),
-  bake: new Token(
-    TESTNET,
-    '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
-    18,
-    'BAKE',
-    'Bakeryswap Token',
-    'https://www.bakeryswap.org/',
-  ),
+
 }
 
 const tokens = (): TokenList => {

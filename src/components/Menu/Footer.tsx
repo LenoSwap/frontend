@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react'
 import styled from 'styled-components'
 import { ButtonMenu, ButtonMenuItem, LinkExternal, Flex, Svg, Image, Button } from '@lenoswap/uikit'
@@ -38,7 +39,7 @@ const Footer = () => {
   const { t } = useTranslation()
   return (
     <Wrapper>
-      <Flex flexDirection={['column', 'column', 'row']} alignItems="center">
+      {/* <Flex flexDirection={['column', 'column', 'row']} alignItems="center">
         <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
           <ButtonMenuItem>V2</ButtonMenuItem>
           <ButtonMenuItem as="a" href="https://v1exchange.pancakeswap.finance/#/">
@@ -54,7 +55,7 @@ const Footer = () => {
         >
           {t('Convert ERC-20 to BEP-20')}
         </LinkExternal>
-      </Flex>
+      </Flex> */}
       <Flex
         flexGrow={1}
         alignItems="center"
@@ -66,7 +67,7 @@ const Footer = () => {
             id="clickExchangeHelp"
             as="a"
             external
-            href="https://docs.pancakeswap.finance/products/pancakeswap-exchange"
+            href="mailto:support@lenoswap.com"
             variant="subtle"
           >
             {t('Need help ?')}

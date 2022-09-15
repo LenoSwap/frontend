@@ -2559,6 +2559,40 @@
   resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-5.50.0.tgz#29c6419e8379d496ab6d0426eadf3c4d100cd186"
   integrity sha512-swKHYCOZUGyVt4ge0u8a7AwNcA//h4nx5wIi0sruGye1IJ5Cva0GyK9L2/WdX+kWVTKp92ZiEo1df31lrWGPgA==
 
+"@lenoswap/leno-core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@lenoswap/leno-core/-/leno-core-0.1.0.tgz#9fefaf9b7fea66d5a44cc263a0dc3eb635320087"
+  integrity sha512-eZAU94S7Qnv47tRhz+/L5wHIQdVj7GV3PKppDdaTdQkaIQtts58GEEuUVrgBVc506khdg/YU7b4agxRmqG5FaA==
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
+"@lenoswap/sdk@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@lenoswap/sdk/-/sdk-2.4.3.tgz#75f5b3cc6bf85acebc1ea6ff54edf70f354f6cb6"
+  integrity sha512-+EVOuD8KCszcOHDb0FSp/khwuMJybHNSexiL7FJZvDjosuC65xzvTzsfkuzz60wFmEBuaUV3cczCV+KM9NVBSQ==
+  dependencies:
+    "@lenoswap/leno-core" "^0.1.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
+"@lenoswap/uikit@^0.55.0":
+  version "0.55.0"
+  resolved "https://registry.yarnpkg.com/@lenoswap/uikit/-/uikit-0.55.0.tgz#156e3ce83e6dda34126648e3f42cf975957d6567"
+  integrity sha512-yn2r71CvAeA7CDw3Njq1wuncIYQM9HhQLtyKwjF0AAEXNuscqe+O30B8dlTQo0v0sQ59e9sTywHOe58ubIONbQ==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    styled-system "^5.1.5"
+
 "@metamask/safe-event-emitter@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@metamask/safe-event-emitter/-/safe-event-emitter-2.0.0.tgz#af577b477c683fad17c619a78208cede06f9605c"
@@ -2613,15 +2647,6 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@pancakeswap-libs/pancake-swap-core@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/pancake-swap-core/-/pancake-swap-core-0.1.0.tgz#6957f1fa02170531a2ffbf95f2c0e145e9d21bc2"
-  integrity sha512-2jYiD1Ec3xAbP4JTa/Ozylx0xI4VwC7diCm5ak4AtGrIRhfRLSanaZSQdVpLigUnIFszma/4nVWtt3cup4Poxw==
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
-
 "@pancakeswap/eslint-config-pancake@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@pancakeswap/eslint-config-pancake/-/eslint-config-pancake-1.1.0.tgz#ddb916af3726359095207306cfc87098cec43f41"
@@ -2635,31 +2660,6 @@
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
-
-"@pancakeswap/sdk@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap/sdk/-/sdk-2.4.0.tgz#5da040384419cb45ea2b6eee8104d05914e8bd28"
-  integrity sha512-c5cLOMVa/dlbVbURPpSY6oNSYm61xN5NgfoYCXY88NisHbgLWd/MNHoM98XjgeJFs7OlKcf4G7nui4XGM9lDSA==
-  dependencies:
-    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
-"@pancakeswap/uikit@^0.55.0":
-  version "0.55.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap/uikit/-/uikit-0.55.0.tgz#a783664997512d9199e87fe1cdd49627ec8dd5e6"
-  integrity sha512-JjVuJ8PnH11rDBNZalIfiRJqj/908EDoUjRVDSb0ITZD3KfR/eH9I+7g6bdbPiKyUxnNm3QWgqgqZ58zJBCL4w==
-  dependencies:
-    "@popperjs/core" "^2.9.2"
-    "@types/lodash" "^4.14.168"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-popper "^2.2.5"
-    styled-system "^5.1.5"
 
 "@pmmmwh/react-refresh-webpack-plugin@0.4.3":
   version "0.4.3"
@@ -11486,11 +11486,6 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
-
-husky@^7.0.0:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.2.tgz#21900da0f30199acca43a46c043c4ad84ae88dff"
-  integrity sha512-8yKEWNX4z2YsofXAMT7KvA1g8p+GxtB1ffV8XtpAEGuXNAbCV5wdNKH+qTpw8SM9fh4aMPDR+yQuKfgnreyZlg==
 
 ice-cap@0.0.4:
   version "0.0.4"

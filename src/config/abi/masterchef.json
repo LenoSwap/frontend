@@ -162,7 +162,7 @@
   },
   {
     "inputs": [],
-    "name": "cake",
+    "name": "leno",
     "outputs": [
       {
         "internalType": "contract CakeToken",

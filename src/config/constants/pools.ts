@@ -6,8 +6,8 @@ const serializedTokens = serializeTokens()
 const pools: SerializedPoolConfig[] = [
   {
     sousId: 0,
-    stakingToken: serializedTokens.cake,
-    earningToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
       56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
@@ -20,7 +20,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 222,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.beta,
     contractAddress: {
       97: '',
@@ -33,7 +33,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 221,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.nft,
     contractAddress: {
       97: '',
@@ -46,7 +46,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 220,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.chess,
     contractAddress: {
       97: '',
@@ -59,7 +59,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 219,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.tlos,
     contractAddress: {
       97: '',
@@ -72,7 +72,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 218,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.stephero,
     contractAddress: {
       97: '',
@@ -85,7 +85,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 217,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bp,
     contractAddress: {
       97: '',
@@ -98,7 +98,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 216,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.cvp,
     contractAddress: {
       97: '',
@@ -111,7 +111,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 215,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.qbt,
     contractAddress: {
       97: '',
@@ -124,7 +124,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 214,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.naos,
     contractAddress: {
       97: '',
@@ -137,7 +137,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 213,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.pha,
     contractAddress: {
       97: '',
@@ -150,7 +150,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 212,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bel,
     contractAddress: {
       97: '',
@@ -163,7 +163,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 211,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ramp,
     contractAddress: {
       97: '',
@@ -176,7 +176,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 210,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.pots,
     contractAddress: {
       97: '',
@@ -189,7 +189,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 209,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.tusd,
     contractAddress: {
       97: '',
@@ -202,7 +202,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 208,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.revv,
     contractAddress: {
       97: '',
@@ -215,7 +215,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 207,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.btt,
     contractAddress: {
       97: '',
@@ -228,7 +228,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 206,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.skill,
     contractAddress: {
       97: '',
@@ -241,7 +241,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 205,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.win,
     contractAddress: {
       97: '',
@@ -254,7 +254,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 204,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.if,
     contractAddress: {
       97: '',
@@ -267,7 +267,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 203,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.sps,
     contractAddress: {
       97: '',
@@ -280,7 +280,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 202,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.c98,
     contractAddress: {
       97: '',
@@ -293,7 +293,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 201,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.axs,
     contractAddress: {
       97: '',
@@ -307,7 +307,7 @@ const pools: SerializedPoolConfig[] = [
   {
     sousId: 200,
     stakingToken: serializedTokens.axs,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '',
       56: '0x583A36816F3b8401C4fdf682203E0caDA6997740',
@@ -319,7 +319,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 199,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.pmon,
     contractAddress: {
       97: '',
@@ -332,7 +332,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 198,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.trx,
     contractAddress: {
       97: '',
@@ -345,7 +345,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 197,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.chess,
     contractAddress: {
       97: '',
@@ -358,7 +358,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 196,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.titan,
     contractAddress: {
       97: '',
@@ -371,7 +371,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 195,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.harmony,
     contractAddress: {
       97: '',
@@ -384,7 +384,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 194,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.mask,
     contractAddress: {
       97: '',
@@ -397,7 +397,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 193,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dvi,
     contractAddress: {
       97: '',
@@ -410,7 +410,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 192,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.gum,
     contractAddress: {
       97: '',
@@ -423,7 +423,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 191,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.adx,
     contractAddress: {
       97: '',
@@ -436,7 +436,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 190,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.suter,
     contractAddress: {
       97: '',
@@ -449,7 +449,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 189,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bscpad,
     contractAddress: {
       97: '',
@@ -462,7 +462,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 188,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.rabbit,
     contractAddress: {
       97: '',
@@ -475,7 +475,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 187,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.waultx,
     contractAddress: {
       97: '',
@@ -488,7 +488,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 186,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.wex,
     contractAddress: {
       97: '',
@@ -501,7 +501,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 185,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.form,
     contractAddress: {
       97: '',
@@ -514,7 +514,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 184,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.orbs,
     contractAddress: {
       97: '',
@@ -527,7 +527,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 183,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.$dg,
     contractAddress: {
       97: '',
@@ -540,7 +540,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 182,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.woo,
     contractAddress: {
       97: '',
@@ -553,7 +553,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 181,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.woo,
     contractAddress: {
       97: '',
@@ -566,7 +566,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 180,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.htb,
     contractAddress: {
       97: '',
@@ -579,7 +579,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 179,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.jgn,
     contractAddress: {
       97: '',
@@ -592,7 +592,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 178,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dft,
     contractAddress: {
       97: '',
@@ -605,7 +605,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 177,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hai,
     contractAddress: {
       97: '',
@@ -618,7 +618,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 176,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.o3,
     contractAddress: {
       97: '',
@@ -631,7 +631,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 175,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ampl,
     contractAddress: {
       97: '',
@@ -644,7 +644,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 174,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.oddz,
     contractAddress: {
       97: '',
@@ -657,7 +657,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 173,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bondly,
     contractAddress: {
       97: '',
@@ -670,7 +670,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 172,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.marsh,
     contractAddress: {
       97: '',
@@ -683,7 +683,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 171,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.mbox,
     contractAddress: {
       97: '',
@@ -696,7 +696,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 170,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ata,
     contractAddress: {
       97: '',
@@ -709,7 +709,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 169,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.mx,
     contractAddress: {
       97: '',
@@ -722,7 +722,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 168,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bcfx,
     contractAddress: {
       97: '',
@@ -735,7 +735,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 167,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.qkc,
     contractAddress: {
       97: '',
@@ -748,7 +748,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 166,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ktn,
     contractAddress: {
       97: '',
@@ -761,7 +761,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 165,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.mtrg,
     contractAddress: {
       97: '',
@@ -774,7 +774,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 164,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.tusd,
     contractAddress: {
       97: '',
@@ -787,7 +787,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 163,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.vrt,
     contractAddress: {
       97: '',
@@ -800,7 +800,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 162,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.kalm,
     contractAddress: {
       97: '',
@@ -813,7 +813,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 161,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ez,
     contractAddress: {
       97: '',
@@ -826,7 +826,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 160,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.kalm,
     contractAddress: {
       97: '',
@@ -840,7 +840,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 159,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.popen,
     contractAddress: {
       97: '',
@@ -853,7 +853,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 158,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.lien,
     contractAddress: {
       97: '',
@@ -866,7 +866,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 157,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.well,
     contractAddress: {
       97: '',
@@ -879,7 +879,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 156,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.deri,
     contractAddress: {
       97: '',
@@ -892,7 +892,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 155,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.chr,
     contractAddress: {
       97: '',
@@ -905,7 +905,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 154,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.cyc,
     contractAddress: {
       97: '',
@@ -918,7 +918,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 153,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.xend,
     contractAddress: {
       97: '',
@@ -932,7 +932,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 152,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hget,
     contractAddress: {
       97: '',
@@ -946,7 +946,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 151,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hotcross,
     contractAddress: {
       97: '',
@@ -960,7 +960,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 150,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.rfox,
     contractAddress: {
       97: '',
@@ -974,7 +974,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 149,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.wmass,
     contractAddress: {
       97: '',
@@ -988,7 +988,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 148,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ubxt,
     contractAddress: {
       97: '',
@@ -1002,7 +1002,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 147,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.btr,
     contractAddress: {
       97: '',
@@ -1016,7 +1016,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 146,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.τdoge,
     contractAddress: {
       97: '',
@@ -1030,7 +1030,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 145,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.pmon,
     contractAddress: {
       97: '',
@@ -1044,7 +1044,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 144,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.one,
     contractAddress: {
       97: '',
@@ -1058,7 +1058,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 143,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.fine,
     contractAddress: {
       97: '',
@@ -1073,7 +1073,7 @@ const pools: SerializedPoolConfig[] = [
   {
     sousId: 142,
     stakingToken: serializedTokens.doge,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '',
       56: '0xbebd44824631b55991fa5f2bf5c7a4ec96ff805b',
@@ -1086,7 +1086,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 141,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bmxx,
     contractAddress: {
       97: '',
@@ -1100,7 +1100,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 140,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.oin,
     contractAddress: {
       97: '',
@@ -1114,7 +1114,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 139,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hyfi,
     contractAddress: {
       97: '',
@@ -1128,7 +1128,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 138,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.kun,
     contractAddress: {
       97: '',
@@ -1142,7 +1142,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 137,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.math,
     contractAddress: {
       97: '',
@@ -1156,7 +1156,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 136,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ust,
     contractAddress: {
       97: '',
@@ -1170,7 +1170,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 135,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.win,
     contractAddress: {
       97: '',
@@ -1184,7 +1184,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 134,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.trx,
     contractAddress: {
       97: '',
@@ -1198,7 +1198,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 133,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.btt,
     contractAddress: {
       97: '',
@@ -1212,7 +1212,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 132,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.lmt,
     contractAddress: {
       97: '',
@@ -1226,7 +1226,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 131,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.pnt,
     contractAddress: {
       97: '',
@@ -1240,7 +1240,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 130,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.xmark,
     contractAddress: {
       97: '',
@@ -1254,7 +1254,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 129,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ramp,
     contractAddress: {
       97: '',
@@ -1268,7 +1268,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 128,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hakka,
     contractAddress: {
       97: '',
@@ -1282,7 +1282,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 127,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.pbtc,
     contractAddress: {
       97: '',
@@ -1296,7 +1296,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 126,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.lien,
     contractAddress: {
       97: '',
@@ -1310,7 +1310,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 125,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bbadger,
     contractAddress: {
       97: '',
@@ -1324,7 +1324,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 124,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bdigg,
     contractAddress: {
       97: '',
@@ -1338,7 +1338,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 123,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bondly,
     contractAddress: {
       97: '',
@@ -1352,7 +1352,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 122,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.xed,
     contractAddress: {
       97: '',
@@ -1366,7 +1366,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 121,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.cgg,
     contractAddress: {
       97: '',
@@ -1380,7 +1380,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 120,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.perl,
     contractAddress: {
       97: '',
@@ -1394,7 +1394,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 119,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.arpa,
     contractAddress: {
       97: '',
@@ -1408,7 +1408,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 118,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.oddz,
     contractAddress: {
       97: '',
@@ -1422,7 +1422,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 117,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dexe,
     contractAddress: {
       97: '',
@@ -1436,7 +1436,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 116,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dfd,
     contractAddress: {
       97: '',
@@ -1450,7 +1450,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 115,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.alpaca,
     contractAddress: {
       97: '',
@@ -1464,7 +1464,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 114,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.τbtc,
     contractAddress: {
       97: '',
@@ -1478,7 +1478,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 113,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.τbtc,
     contractAddress: {
       97: '',
@@ -1492,7 +1492,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 112,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.swingby,
     contractAddress: {
       97: '',
@@ -1505,7 +1505,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 111,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.xed,
     contractAddress: {
       97: '',
@@ -1520,7 +1520,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 110,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hakka,
     contractAddress: {
       97: '',
@@ -1535,7 +1535,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 109,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.cgg,
     contractAddress: {
       97: '',
@@ -1550,7 +1550,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 108,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.mix,
     contractAddress: {
       97: '',
@@ -1563,7 +1563,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 107,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.suter,
     contractAddress: {
       97: '',
@@ -1576,7 +1576,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 106,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.broobee,
     contractAddress: {
       97: '',
@@ -1589,7 +1589,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 105,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hzn,
     contractAddress: {
       97: '',
@@ -1602,7 +1602,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 104,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.alpa,
     contractAddress: {
       97: '',
@@ -1615,7 +1615,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 103,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.perl,
     contractAddress: {
       97: '',
@@ -1630,7 +1630,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 102,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.tlm,
     contractAddress: {
       97: '',
@@ -1643,7 +1643,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 101,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.jgn,
     contractAddress: {
       97: '',
@@ -1656,7 +1656,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 100,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.eps,
     contractAddress: {
       97: '',
@@ -1669,7 +1669,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 99,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.arpa,
     contractAddress: {
       97: '',
@@ -1684,7 +1684,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 98,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.itam,
     contractAddress: {
       97: '',
@@ -1697,7 +1697,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 97,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bondly,
     contractAddress: {
       97: '',
@@ -1712,7 +1712,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 96,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.tko,
     contractAddress: {
       97: '',
@@ -1725,7 +1725,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 95,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.apys,
     contractAddress: {
       97: '',
@@ -1738,7 +1738,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 94,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hoo,
     contractAddress: {
       97: '',
@@ -1751,7 +1751,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 93,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.oddz,
     contractAddress: {
       97: '',
@@ -1766,7 +1766,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 92,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.easy,
     contractAddress: {
       97: '',
@@ -1779,7 +1779,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 91,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.nrv,
     contractAddress: {
       97: '',
@@ -1792,7 +1792,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 90,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dego,
     contractAddress: {
       97: '',
@@ -1805,7 +1805,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 89,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.gum,
     contractAddress: {
       97: '',
@@ -1818,7 +1818,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 88,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.pbtc,
     contractAddress: {
       97: '',
@@ -1833,7 +1833,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 87,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dft,
     contractAddress: {
       97: '',
@@ -1846,7 +1846,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 86,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.swth,
     contractAddress: {
       97: '',
@@ -1859,7 +1859,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 85,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.lien,
     contractAddress: {
       97: '',
@@ -1874,7 +1874,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 84,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.zil,
     contractAddress: {
       97: '',
@@ -1887,7 +1887,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 83,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.pcws,
     contractAddress: {
       97: '',
@@ -1900,7 +1900,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 82,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bbadger,
     contractAddress: {
       97: '',
@@ -1915,7 +1915,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 81,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bdigg,
     contractAddress: {
       97: '',
@@ -1930,7 +1930,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 80,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.lto,
     contractAddress: {
       97: '',
@@ -1943,7 +1943,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 79,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.mir,
     contractAddress: {
       97: '',
@@ -1957,7 +1957,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 78,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.mir,
     contractAddress: {
       97: '',
@@ -1972,7 +1972,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 77,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.trade,
     contractAddress: {
       97: '',
@@ -1986,7 +1986,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 76,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dusk,
     contractAddress: {
       97: '',
@@ -2000,7 +2000,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 75,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bifi,
     contractAddress: {
       97: '',
@@ -2014,7 +2014,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 74,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.txl,
     contractAddress: {
       97: '',
@@ -2028,7 +2028,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 73,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.cos,
     contractAddress: {
       97: '',
@@ -2042,7 +2042,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 72,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bunny,
     contractAddress: {
       97: '',
@@ -2056,7 +2056,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 71,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.alice,
     contractAddress: {
       97: '',
@@ -2070,7 +2070,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 70,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.for,
     contractAddress: {
       97: '',
@@ -2084,7 +2084,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 69,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bux,
     contractAddress: {
       97: '',
@@ -2098,7 +2098,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 68,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.nuls,
     contractAddress: {
       97: '',
@@ -2112,7 +2112,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 67,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.belt,
     contractAddress: {
       97: '',
@@ -2126,7 +2126,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 66,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ramp,
     contractAddress: {
       97: '',
@@ -2141,7 +2141,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 65,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bfi,
     contractAddress: {
       97: '',
@@ -2155,7 +2155,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 64,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dexe,
     contractAddress: {
       97: '',
@@ -2170,7 +2170,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 63,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bel,
     contractAddress: {
       97: '',
@@ -2185,7 +2185,7 @@ const pools: SerializedPoolConfig[] = [
   {
     sousId: 62,
     stakingToken: serializedTokens.tpt,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '',
       56: '0x0c3D6892aa3b23811Af3bd1bbeA8b0740E8e4528',
@@ -2198,7 +2198,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 61,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.tpt,
     contractAddress: {
       97: '',
@@ -2212,7 +2212,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 60,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.watch,
     contractAddress: {
       97: '',
@@ -2226,7 +2226,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 59,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.xmark,
     contractAddress: {
       97: '',
@@ -2240,7 +2240,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 58,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bmxx,
     contractAddress: {
       97: '',
@@ -2254,7 +2254,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 57,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.iotx,
     contractAddress: {
       97: '',
@@ -2268,7 +2268,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 56,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bor,
     contractAddress: {
       97: '',
@@ -2282,7 +2282,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 55,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bopen,
     contractAddress: {
       97: '',
@@ -2297,7 +2297,7 @@ const pools: SerializedPoolConfig[] = [
   {
     sousId: 54,
     stakingToken: serializedTokens.sushi,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '',
       56: '0xb69b6e390cba1F68442A886bC89E955048DAe7E3',
@@ -2310,7 +2310,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 53,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.dodo,
     contractAddress: {
       97: '',
@@ -2324,7 +2324,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 52,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.swingby,
     contractAddress: {
       97: '',
@@ -2338,7 +2338,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 51,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bry,
     contractAddress: {
       97: '',
@@ -2352,7 +2352,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 50,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.zee,
     contractAddress: {
       97: '',
@@ -2366,7 +2366,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 49,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.swgb,
     contractAddress: {
       97: '',
@@ -2381,7 +2381,7 @@ const pools: SerializedPoolConfig[] = [
   {
     sousId: 48,
     stakingToken: serializedTokens.comp,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '',
       56: '0xE0565fBb109A3f3f8097D8A9D931277bfd795072',
@@ -2395,7 +2395,7 @@ const pools: SerializedPoolConfig[] = [
   {
     sousId: 47,
     stakingToken: serializedTokens.comp,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '',
       56: '0xc3693e3cbc3514d5d07EA5b27A721F184F617900',
@@ -2408,7 +2408,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 46,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.sfp,
     contractAddress: {
       97: '',
@@ -2422,7 +2422,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 45,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.lina,
     contractAddress: {
       97: '',
@@ -2436,7 +2436,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 44,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.lina,
     contractAddress: {
       97: '',
@@ -2450,7 +2450,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 43,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.lit,
     contractAddress: {
       97: '',
@@ -2464,7 +2464,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 42,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hget,
     contractAddress: {
       97: '',
@@ -2478,7 +2478,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 41,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bdo,
     contractAddress: {
       97: '',
@@ -2492,7 +2492,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 40,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.egld,
     contractAddress: {
       97: '',
@@ -2506,7 +2506,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 39,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ust,
     contractAddress: {
       97: '',
@@ -2520,7 +2520,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 38,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.wsote,
     contractAddress: {
       97: '',
@@ -2534,7 +2534,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 37,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.front,
     contractAddress: {
       97: '',
@@ -2548,7 +2548,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 36,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.helmet,
     contractAddress: {
       97: '',
@@ -2562,7 +2562,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 35,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.btcst,
     contractAddress: {
       97: '',
@@ -2576,7 +2576,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 34,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bscx,
     contractAddress: {
       97: '',
@@ -2590,7 +2590,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 33,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ten,
     contractAddress: {
       97: '',
@@ -2604,7 +2604,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 32,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.balbt,
     contractAddress: {
       97: '',
@@ -2618,7 +2618,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 31,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.asr,
     contractAddress: {
       97: '',
@@ -2632,7 +2632,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 30,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.atm,
     contractAddress: {
       97: '',
@@ -2646,7 +2646,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 29,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.og,
     contractAddress: {
       97: '',
@@ -2660,7 +2660,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 28,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.reef,
     contractAddress: {
       97: '',
@@ -2674,7 +2674,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 27,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ditto,
     contractAddress: {
       97: '',
@@ -2689,7 +2689,7 @@ const pools: SerializedPoolConfig[] = [
   {
     sousId: 26,
     stakingToken: serializedTokens.twt,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '',
       56: '0x0554a5D083Abf2f056ae3F6029e1714B9A655174',
@@ -2702,7 +2702,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 24,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.juv,
     contractAddress: {
       97: '',
@@ -2716,7 +2716,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 25,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.psg,
     contractAddress: {
       97: '',
@@ -2730,7 +2730,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 21,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.vai,
     contractAddress: {
       97: '',
@@ -2745,7 +2745,7 @@ const pools: SerializedPoolConfig[] = [
   {
     sousId: 20,
     stakingToken: serializedTokens.bnb,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.leno,
     contractAddress: {
       97: '',
       56: '0x555Ea72d7347E82C614C16f005fA91cAf06DCB5a',
@@ -2758,7 +2758,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 19,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.bnb,
     contractAddress: {
       97: '',
@@ -2772,7 +2772,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 18,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.blink,
     contractAddress: {
       97: '',
@@ -2786,7 +2786,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 17,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.blink,
     contractAddress: {
       97: '',
@@ -2801,7 +2801,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 16,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.unfi,
     contractAddress: {
       97: '',
@@ -2815,7 +2815,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 15,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.twt,
     contractAddress: {
       97: '',
@@ -2829,7 +2829,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 14,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.hard,
     contractAddress: {
       97: '',
@@ -2843,7 +2843,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 13,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.broobee,
     contractAddress: {
       97: '',
@@ -2857,7 +2857,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 12,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.stax,
     contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
@@ -2871,7 +2871,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 11,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.nar,
     contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
@@ -2885,7 +2885,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 10,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.nya,
     contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
@@ -2899,7 +2899,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 9,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.ctk,
     contractAddress: {
       97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',
@@ -2913,7 +2913,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 8,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.twt,
     contractAddress: {
       97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',
@@ -2927,7 +2927,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 7,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.leno,
     earningToken: serializedTokens.inj,
     contractAddress: {
       97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',

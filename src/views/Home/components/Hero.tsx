@@ -106,7 +106,7 @@ const Hero = () => {
         id="homepage-hero"
       >
         <Flex flex="1" flexDirection="column">
-          <Heading scale="xxl" color="secondary" mb="24px">
+          <Heading scale="xxl" color="text" mb="24px">
             {t('The moon is made of pancakes.')}
           </Heading>
           <Heading scale="md" mb="24px">

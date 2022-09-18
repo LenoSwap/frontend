@@ -106,10 +106,10 @@ const Hero = () => {
         id="homepage-hero"
       >
         <Flex flex="1" flexDirection="column">
-          <Heading scale="xxl" color="text" mb="24px">
-            {t('The moon is made of pancakes.')}
+          <Heading scale="xxl" color="head" mb="24px">
+            {t('The moon is made of lenoswap.')}
           </Heading>
-          <Heading scale="md" mb="24px">
+          <Heading scale="md" color="contrast" mb="24px">
             {t('Trade, earn, and win crypto on the most popular decentralized platform in the galaxy.')}
           </Heading>
           <Flex>

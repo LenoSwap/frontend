@@ -45,18 +45,18 @@ const Stats = () => {
       <Heading textAlign="center" scale="xl" mb="32px">
         {t('Trusted with billions.')}
       </Heading>
-      <Text textAlign="center" color="textSubtle">
-        {t('PancakeSwap has the most users of any decentralized platform, ever.')}
+      <Text textAlign="center" color="subpara">
+        {t('LenoSwap has the most users of any decentralized platform, ever.')}
       </Text>
       <Flex flexWrap="wrap">
-        <Text display="inline" textAlign="center" color="textSubtle" mb="20px">
+        <Text display="inline" textAlign="center" color="subpara" mb="20px">
           {entrusting}
           <>{data ? <>{tvlString}</> : <Skeleton display="inline-block" height={16} width={70} mt="2px" />}</>
           {inFunds}
         </Text>
       </Flex>
 
-      <Text textAlign="center" color="textSubtle" bold mb="32px">
+      <Text textAlign="center" color="orange" bold mb="32px">
         {t('Will you join them?')}
       </Text>
 

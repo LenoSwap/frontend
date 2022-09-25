@@ -1,8 +1,8 @@
 import { SalesSectionProps } from '.'
 
 export const swapSectionData: SalesSectionProps = {
-  headingText: 'Trade anything. No registration, no hassle.',
-  bodyText: 'Trade any token on Binance Smart Chain in seconds, just by connecting your wallet.',
+  headingText: 'Secure and hustle -free Digital asset trading services.',
+  bodyText: 'LenoSwap is one of the growing crypto exchanges in the world. You can buy and sell crypto currencies quickly and easily.',
   reverse: false,
   primaryButton: {
     to: '/swap',
@@ -25,8 +25,8 @@ export const swapSectionData: SalesSectionProps = {
 }
 
 export const earnSectionData: SalesSectionProps = {
-  headingText: 'Earn passive income with crypto.',
-  bodyText: 'PancakeSwap makes it easy to make your crypto work for you.',
+  headingText: 'Earn a Growing & Passive Rewards.',
+  bodyText: 'Enables you for smooth trading experience for all your assets.',
   reverse: true,
   primaryButton: {
     to: '/farms',
@@ -49,7 +49,7 @@ export const earnSectionData: SalesSectionProps = {
 }
 
 export const cakeSectionData: SalesSectionProps = {
-  headingText: 'LENO makes our world go round.',
+  headingText: 'LENO makes Your asset Growing.',
   bodyText:
     'LENO token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
   reverse: false,

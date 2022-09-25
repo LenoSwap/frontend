@@ -116,7 +116,7 @@ const Home: React.FC = () => {
         <SalesSection {...swapSectionData} />
       </PageSection>
 
-{/* Earn passive income with crypto */}
+{/* Earn a Growing & Passive Rewards */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         // background={theme.colors.gradients.cardHeader}

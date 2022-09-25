@@ -17,11 +17,11 @@ const Stats = () => {
   const data = useGetStats()
   const { theme } = useTheme()
 
-  const tvlString = data ? formatLocalisedCompactNumber(data.tvl) : '-'
+  const tvlString = data ? formatLocalisedCompactNumber(2000000) : '-'
   const trades = formatLocalisedCompactNumber(txCount)
   const users = formatLocalisedCompactNumber(addressCount)
 
-  const tvlText = t('And those users are now entrusting the platform with over $%tvl% in funds.', { tvl: tvlString })
+  const tvlText = t('With minimum transaction fee. Liquidity locked over  ', { tvl: tvlString })
   const [entrusting, inFunds] = tvlText.split(tvlString)
 
   const UsersCardData: IconCardData = {
@@ -40,13 +40,13 @@ const Stats = () => {
     <Flex justifyContent="center" alignItems="center" flexDirection="column">
       <GradientLogo height="48px" width="48px" mb="24px" />
       <Heading textAlign="center" scale="xl">
-        {t('Used by millions.')}
+        {t('Encouraging Approach.')}
       </Heading>
       <Heading textAlign="center" scale="xl" mb="32px">
-        {t('Trusted with billions.')}
+        {t('With Entrusted Values.')}
       </Heading>
       <Text textAlign="center" color="subpara">
-        {t('LenoSwap has the most users of any decentralized platform, ever.')}
+        {t('LenoSwap has very easy process to buy and sell your assets.')}
       </Text>
       <Flex flexWrap="wrap">
         <Text display="inline" textAlign="center" color="subpara" mb="20px">

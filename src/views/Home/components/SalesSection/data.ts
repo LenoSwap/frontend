@@ -51,7 +51,7 @@ export const earnSectionData: SalesSectionProps = {
 export const cakeSectionData: SalesSectionProps = {
   headingText: 'LENO makes Your asset Growing.',
   bodyText:
-    'LENO token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
+    'LENO token is, at the heart of the exchanges ecosystem. User will just have to Staking, Farming and Liquidizingfor multiplying assets.',
   reverse: false,
   primaryButton: {
     to: '/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',

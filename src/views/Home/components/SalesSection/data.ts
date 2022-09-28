@@ -3,23 +3,24 @@ import { SalesSectionProps } from '.'
 export const swapSectionData: SalesSectionProps = {
   headingText: 'Secure and hustle -free Digital asset trading services.',
   bodyText: 'LenoSwap is one of the growing crypto exchanges in the world. You can buy and sell crypto currencies quickly and easily.',
-  reverse: false,
+  reverse: true,
   primaryButton: {
     to: '/swap',
     text: 'Trade Now',
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/',
+    to: '#',
     text: 'Learn',
     external: true,
   },
   images: {
     path: '/images/home/trade/',
     attributes: [
-      { src: 'BNB', alt: 'BNB token' },
-      { src: 'BTC', alt: 'BTC token' },
-      { src: 'LENO', alt: 'LENO token' },
+      // { src: 'BNB', alt: 'BNB token' },
+      // { src: 'BTC', alt: 'BTC token' },
+      // { src: 'LENO', alt: 'LENO token' },
+      { src: 'GLOBE', alt: 'Globe' },
     ],
   },
 }
@@ -34,16 +35,17 @@ export const earnSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/products/yield-farming',
+    to: '#',
     text: 'Learn',
     external: true,
   },
   images: {
     path: '/images/home/earn/',
     attributes: [
-      { src: 'pie', alt: 'Pie chart' },
-      { src: 'stonks', alt: 'Stocks chart' },
-      { src: 'folder', alt: 'Folder with leno token' },
+      // { src: 'pie', alt: 'Pie chart' },
+      // { src: 'stonks', alt: 'Stocks chart' },
+      // { src: 'folder', alt: 'Folder with leno token' },
+      { src: 'EARN', alt: 'earn' },
     ],
   },
 }
@@ -59,7 +61,7 @@ export const cakeSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/tokenomics/leno',
+    to: '#',
     text: 'Learn',
     external: true,
   },
@@ -67,10 +69,10 @@ export const cakeSectionData: SalesSectionProps = {
   images: {
     path: '/images/home/leno/',
     attributes: [
-      { src: 'bottom-right', alt: 'Small 3d pancake' },
-      { src: 'top-right', alt: 'Small 3d pancake' },
-      { src: 'coin', alt: 'LENO token' },
-      { src: 'top-left', alt: 'Small 3d pancake' },
+      // { src: 'bottom-right', alt: 'Small 3d pancake' },
+      // { src: 'top-right', alt: 'Small 3d pancake' },
+      { src: 'Trade', alt: 'LENO token' },
+      // { src: 'top-left', alt: 'Small 3d pancake' },
     ],
   },
 }

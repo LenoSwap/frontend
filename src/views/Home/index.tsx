@@ -79,7 +79,7 @@ const Home: React.FC = () => {
         <Hero />
       </StyledHeroSection>
 
-{/* Huge community and combine with local */}
+{/* Encouraging Approach. With Entrusted Values */}
       <PageSection
         innerProps={{ style: { margin: '0', width: '100%' } }}
         background={
@@ -95,7 +95,7 @@ const Home: React.FC = () => {
         <MetricsSection />
       </PageSection>
 
-{/* Trade an asset, no need registration and easily */}
+{/* Secure and hustle -free Digital asset trading services */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         // background={theme.colors.background}
@@ -114,6 +114,22 @@ const Home: React.FC = () => {
           </InnerWedgeWrapper>
         </OuterWedgeWrapper>
         <SalesSection {...swapSectionData} />
+      </PageSection>
+
+{/* LENO makes Your asset Growing */}
+<PageSection
+        innerProps={{ style: HomeSectionContainerStyles }}
+        background={
+          theme.isDark
+          ? '#1d1d22'
+          : '#FFFFFF'
+        }
+        // background={theme.colors.background}
+        index={2}
+        hasCurvedDivider={false}
+      >
+        <SalesSection {...cakeSectionData} />
+        <CakeDataRow />
       </PageSection>
 
 {/* Earn a Growing & Passive Rewards */}
@@ -152,21 +168,7 @@ const Home: React.FC = () => {
       >
         <WinSection />
       </PageSection> */}
-{/* DIGIS makes our world go round */}
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background={
-          theme.isDark
-          ? '#1d1d22'
-          : '#FFFFFF'
-        }
-        // background={theme.colors.background}
-        index={2}
-        hasCurvedDivider={false}
-      >
-        <SalesSection {...cakeSectionData} />
-        <CakeDataRow />
-      </PageSection>
+
 
 {/* Start in seconds */}
       <PageSection

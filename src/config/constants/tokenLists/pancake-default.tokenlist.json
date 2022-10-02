@@ -13,32 +13,32 @@
     {
       "name": "WBNB Token",
       "symbol": "WBNB",
-      "address": "0x91Ee0B2E8A5Dea14d9372f05C4cE1c0A93229804",
-      "chainId": 97,
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/tokens/WBNB.png"
     },
     {
       "name": "BUSD Token",
       "symbol": "BUSD",
-      "address": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
-      "chainId": 97,
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/tokens/BUSD.png"
     },
     {
       "name": "Ethereum Token",
       "symbol": "ETH",
-      "address": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
-      "chainId": 97,
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/tokens/ETH.png"
     },
     {
       "name": "Tether USD",
       "symbol": "USDT",
-      "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
-      "chainId": 97,
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/tokens/USDT.png"
     },
@@ -46,15 +46,15 @@
       "name": "LenoSwap Token",
       "symbol": "LENO",
       "address": "0x22241835329ffac90DDB9C5fCECbbc711fDf777C",
-      "chainId": 97,
+      "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/tokens/LENO.png"
     },
     {
       "name": "Dai Token",
       "symbol": "DAI",
-      "address": "0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867",
-      "chainId": 97,
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/tokens/DAI.png"
     }

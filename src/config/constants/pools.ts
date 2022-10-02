@@ -10,11 +10,11 @@ const pools: SerializedPoolConfig[] = [
     earningToken: serializedTokens.leno,
     contractAddress: {
       97: '0xa048d65608ebbc8eae1e04383ccc719a4f905f3b',
-      56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+      56: '0xa048d65608ebbc8eae1e04383ccc719a4f905f3b',
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
-    tokenPerBlock: '10',
+    tokenPerBlock: '3',
     sortOrder: 1,
     isFinished: false,
   },

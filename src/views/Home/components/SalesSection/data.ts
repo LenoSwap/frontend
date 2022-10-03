@@ -17,10 +17,11 @@ export const swapSectionData: SalesSectionProps = {
   images: {
     path: '/images/home/trade/',
     attributes: [
-      { src: 'BNB', alt: 'BNB token' },
-      { src: 'BTC', alt: 'BTC token' },
-      { src: 'LENO', alt: 'LENO token' },
+      // { src: 'BNB', alt: 'BNB token' },
+      // { src: 'BTC', alt: 'BTC token' },
+      // { src: 'LENO', alt: 'LENO token' },
       // { src: 'GLOBE', alt: 'Globe' },
+      { src: 'Trade', alt: 'Trade' },
     ],
   },
 }
@@ -45,7 +46,7 @@ export const earnSectionData: SalesSectionProps = {
       // { src: 'pie', alt: 'Pie chart' },
       // { src: 'stonks', alt: 'Stocks chart' },
       // { src: 'folder', alt: 'Folder with leno token' },
-      { src: 'EARN', alt: 'earn' },
+      { src: 'Earn', alt: 'earn' },
     ],
   },
 }
@@ -71,8 +72,10 @@ export const cakeSectionData: SalesSectionProps = {
     attributes: [
       // { src: 'bottom-right', alt: 'Small 3d pancake' },
       // { src: 'top-right', alt: 'Small 3d pancake' },
-      { src: 'Trade', alt: 'LENO token' },
+      // { src: 'Trade', alt: 'LENO token' },
       // { src: 'top-left', alt: 'Small 3d pancake' },
+      { src: 'Grow', alt: 'Grow' },
+
     ],
   },
 }

@@ -67,7 +67,7 @@ const Footer = () => {
             id="clickExchangeHelp"
             as="a"
             external
-            href="mailto:support@lenoswap.com"
+            href="https://t.me/Lenoswap"
             variant="subtle"
           >
             {t('Need help ?')}

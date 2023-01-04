@@ -22,7 +22,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'LENO-BNB LP',
     lpAddresses: {
       97: '0xC43D244E5C3B8c888b4827Cb6d6f1fd06B66Db3B',
-      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+      56: '0x32d07619e424Fd347A1141072CCD2FE0e94aF8ED',
     },
     token: serializedTokens.leno,
     quoteToken: serializedTokens.wbnb,
@@ -32,7 +32,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '0x8b9E26fe2e93c9a167Ea4F9a6A84757Ba9CC0084',
-      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+      56: '0x238250dADCd674f9115BE3D9d8eA464C63648A89',
     },
     token: serializedTokens.busd,
     quoteToken: serializedTokens.wbnb,
@@ -42,7 +42,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'LENO-BUSD LP',
     lpAddresses: {
       97: '0x247682D4F47421465708Ce675a853e3eA5f4b8a8',
-      56: '0x341b183E8C8203359c78e61C159315e9052eAf80',
+      56: '0xc3248c08AB94C5569fe801ADE070e0b09b4Bb413',
     },
     token: serializedTokens.leno,
     quoteToken: serializedTokens.busd,

@@ -57,7 +57,7 @@ export const cakeSectionData: SalesSectionProps = {
     'LENO token is, at the heart of the exchanges ecosystem. User will just have to Staking, Farming and Liquidizing for multiplying assets.',
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+    to: '/swap?outputCurrency=0x22241835329ffac90DDB9C5fCECbbc711fDf777C',
     text: 'Buy LENO',
     external: false,
   },

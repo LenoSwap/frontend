@@ -47,6 +47,16 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.leno,
     quoteToken: serializedTokens.busd,
   },
+  {
+    pid: 4,
+    lpSymbol: 'LENO-USDT LP',
+    lpAddresses: {
+      97: '0x247682D4F47421465708Ce675a853e3eA5f4b8a8',
+      56: '0x96De78e728182d5208c1b6E472E7C736978f1D22',
+    },
+    token: serializedTokens.leno,
+    quoteToken: serializedTokens.usdt,
+  },
   /**
    * V3 by order of release (some may be out of PID order due to multiplier boost)
    */

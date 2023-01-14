@@ -1,7 +1,7 @@
 import { ChainId, JSBI, Percent, Token } from '@lenoswap/sdk'
 import { mainnetTokens, testnetTokens } from './tokens'
 
-export const ROUTER_ADDRESS = '0x8d5d7839AbB34B4ef3ad6bD981a37488b6BBA439'
+export const ROUTER_ADDRESS = '0x811089Bf8a34F963672811852516199188a42740'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -42,7 +42,7 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
-  [ChainId.MAINNET]: [mainnetTokens.busd, mainnetTokens.leno, mainnetTokens.btcb],
+  [ChainId.MAINNET]: [mainnetTokens.leno, mainnetTokens.busd, mainnetTokens.usdt],
   [ChainId.TESTNET]: [testnetTokens.wbnb, testnetTokens.leno, testnetTokens.busd],
 }
 

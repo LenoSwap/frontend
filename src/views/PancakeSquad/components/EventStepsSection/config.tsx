@@ -57,7 +57,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://pancakeswap.finance/swap?outputCurrency=0x22241835329ffac90DDB9C5fCECbbc711fDf777C"
+            href="https://pancakeswap.finance/swap?outputCurrency=0xE73d20C21866B926a7dd240F8e0737d32fd3A19f"
             target="_blank"
             width="100%"
           >

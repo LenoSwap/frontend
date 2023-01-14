@@ -11,8 +11,8 @@ const farms: SerializedFarmConfig[] = [
     pid: 0,
     lpSymbol: 'LENO',
     lpAddresses: {
-      97: '0x22241835329ffac90DDB9C5fCECbbc711fDf777C',
-      56: '0x22241835329ffac90DDB9C5fCECbbc711fDf777C',
+      97: '0xE73d20C21866B926a7dd240F8e0737d32fd3A19f',
+      56: '0xE73d20C21866B926a7dd240F8e0737d32fd3A19f',
     },
     token: serializedTokens.syrup,
     quoteToken: serializedTokens.wbnb,

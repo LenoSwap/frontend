@@ -11,10 +11,10 @@ const priceHelperLps: SerializedFarmConfig[] = [
    */
   {
     pid: null,
-    lpSymbol: 'LENO-BNB LP',
+    lpSymbol: 'LENO-BUSD LP',
     lpAddresses: {
       97: '0xC43D244E5C3B8c888b4827Cb6d6f1fd06B66Db3B',
-      56: '0x7b3ae32eE8C532016f3E31C8941D937c59e055B9',
+      56: '0x32d07619e424Fd347A1141072CCD2FE0e94aF8ED',
     },
     token: tokens.leno,
     quoteToken: tokens.busd,

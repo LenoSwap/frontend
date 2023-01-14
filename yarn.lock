@@ -2581,10 +2581,10 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@lenoswap/uikit@^0.55.4":
-  version "0.55.4"
-  resolved "https://registry.yarnpkg.com/@lenoswap/uikit/-/uikit-0.55.4.tgz#0faf055415997ab6b26efbcd5a84c3762eb0e818"
-  integrity sha512-wehPl3tsuadA0Mxr+Hd84FBDPwHe/Ra7MayKik9mwqzaSD3bIS2CD9H59PF7iS8kY79dRbdB+u8boHMlMyAAbg==
+"@lenoswap/uikit@^0.55.5":
+  version "0.55.5"
+  resolved "https://registry.yarnpkg.com/@lenoswap/uikit/-/uikit-0.55.5.tgz#fe7a6da5e6ed1520580ac36d257aa62f0bead2ad"
+  integrity sha512-BuhpZxI+Kf6vk4JiNHiaxH9cr99ew9hjDdRwhi7xMhlk9cROTjMNVI2QHb9dnilABiLVL5geYr17kzsmRqKZAA==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"

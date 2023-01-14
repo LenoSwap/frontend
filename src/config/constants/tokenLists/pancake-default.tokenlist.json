@@ -45,7 +45,7 @@
     {
       "name": "LenoSwap Token",
       "symbol": "LENO",
-      "address": "0x22241835329ffac90DDB9C5fCECbbc711fDf777C",
+      "address": "0xE73d20C21866B926a7dd240F8e0737d32fd3A19f",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/tokens/LENO.png"

@@ -14,7 +14,7 @@ const priceHelperLps: SerializedFarmConfig[] = [
     lpSymbol: 'LENO-BNB LP',
     lpAddresses: {
       97: '0xC43D244E5C3B8c888b4827Cb6d6f1fd06B66Db3B',
-      56: '0x7b3ae32eE8C532016f3E31C8941D937c59e055B9',
+      56: '0x5da4d85105175d6ac1a527174e95140f489e3292',
     },
     token: tokens.leno,
     quoteToken: tokens.busd,
